@@ -4,18 +4,49 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 77px;
 }
 
 .container > div {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 57px;
 }
 
 .hide {
-  display: none;
+  color: #fff;
 }
 
 .show {
-  display: inline;
+  color: #000;
+}
+
+p {
+  width: 150px;
+  height: 150px;
+  background-color: #5c48d3;
+  font-size: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 15px;
+}
+
+button {
+  width: 53px;
+  height: 53px;
+  background-color: #fff;
+  border-style: none;
+  font-size: 70px;
+}
+
+.container > button {
+  width: 150px;
+  color: #fff;
+  background-color: #5c48d3;
+  border-style: none;
+  border-radius: 15px;
+  font-size: 32px;
 }

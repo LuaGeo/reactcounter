@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Increment from './components/Increment'
+import { useState } from "react";
+import "./App.css";
+import Increment from "./components/Increment";
+import Header from "./components/Header";
 
 function App() {
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
 
-  return (
-    <Increment counter={counter} setCounter={setCounter}/>
-  )
+  return <Increment counter={counter} setCounter={setCounter} />;
 }
 
-export default App
+export default App;
