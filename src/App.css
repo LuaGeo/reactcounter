@@ -1,0 +1,21 @@
+.container {
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container > div {
+  display: flex;
+  gap: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
