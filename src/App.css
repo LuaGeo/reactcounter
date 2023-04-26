@@ -1,5 +1,20 @@
+.containerHead {
+  height: 200px;
+  display: flex;
+  gap: 65px;
+  align-items: center;
+  padding: 60px 110px;
+  box-sizing: border-box;
+  border-bottom: #e5e5e5 2px solid;
+}
+
+h1 {
+  font-size: 48px;
+}
+
 .container {
-  height: 100vw;
+  margin-top: 400px;
+  margin-bottom: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,13 +31,15 @@
 
 .hide {
   color: #fff;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .show {
   color: #000;
 }
 
-p {
+h2 {
   width: 150px;
   height: 150px;
   background-color: #5c48d3;
@@ -49,4 +66,20 @@ button {
   border-style: none;
   border-radius: 15px;
   font-size: 32px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
 }

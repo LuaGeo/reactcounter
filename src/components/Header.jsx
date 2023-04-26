@@ -1,7 +1,10 @@
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
-      <img src="../" alt="" />
+      <div className="containerHead">
+        <img src={props.calc} alt="" />
+        <h1>React Counter</h1>
+      </div>
     </header>
   );
 };

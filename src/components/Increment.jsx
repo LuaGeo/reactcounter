@@ -3,14 +3,14 @@ const Increment = (props) => {
     <div className="container">
       <div>
         <button
-          className={props.counter === 0 ? "hide" : "show"}
+          className={props.counter <= 0 ? "hide" : "show"}
           onClick={() => {
             props.setCounter(props.counter - 1);
           }}
         >
           -
         </button>
-        <p>{props.counter}</p>
+        <h2>{props.counter}</h2>
         <button
           className={props.counter >= 10 ? "hide" : "show"}
           onClick={() => {
